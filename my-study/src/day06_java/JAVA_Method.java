@@ -47,7 +47,7 @@ public class JAVA_Method {
 
 	}
 //메서드 정의하고 이름을 부르면 메서드의 몸체가되는 코드 실행
-	public static void myPrint(int n) { //int:자료형/a:매개변수
+	public static void myPrint(int n) { //int:자료형/n:매개변수
 		System.out.println("메서드 실행 " + n);//(2)
 		System.out.printf("메서드 실행 %d", n);
 	}

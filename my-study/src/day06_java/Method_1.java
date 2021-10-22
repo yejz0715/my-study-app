@@ -13,23 +13,23 @@ public class Method_1 {
 		prn(tot,ave);//4 2-3출력
 	}
 	
-	private static void prn(int tot, double ave) {
+	public static void prn(int tot, double ave) {
 		System.out.printf("총점: %d, 평균: %2f", tot,ave);		
 	}
 
-	private static double avg(int kor, int eng, int mat) {
+	public static double avg(int kor, int eng, int mat) {
 		int total=sum(kor,eng,mat);
 		return total/3.0;
 	}
 	
-	private static int sum(int kor, int eng, int mat) {//총점계산		
+	public static int sum(int kor, int eng, int mat) {//총점계산		
 		return kor+eng+mat;
 	}
 
-	private static int myInput(int n) { //점수입력받음
+	public static int myInput(int n) { //점수입력받음
 	if(n==1)System.out.printf("국어점수: ");
 	else if(n==2)System.out.printf("영어점수: ");
-	else System.out.println("수학점수: ");
+	else System.out.printf("수학점수: ");
 	Scanner sc=new Scanner(System.in);	
 	return sc.nextInt();
 	}
