@@ -16,7 +16,8 @@ package day07_class;
 class Aclass{
 	private int age;
 	//필요에 따라 숨어있는 생성자를 꺼내놓고, 메모리확보하는 동작외에 다른일을 시킬수 있다
-	Aclass(){
+	
+	Aclass(){ //생성자/리턴값x
 		System.out.println("Aclass의 생성자 호출");
 		age=100;
 	}
@@ -34,3 +35,10 @@ public class Constructor {
 
 	}
 }
+
+/*클래스내부에 생성자를 꺼내어 따로 정의하지않으면, 컴파일러는 자동으로 클래스 내부에 숨어있는 다폴트생성자를 호출한다
+디폴트생성자:기본형태만 설정된 생성자 
+ex) Bclass(){         //이처럼 내용없이 생성자를 따로 정의하는것은 
+                 }    //따로 생성자를 아예 기술하지않는것과 같다
+*/
+
