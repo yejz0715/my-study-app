@@ -45,5 +45,62 @@ public class Static {
 		//private로 보호된 static변수는 static메서드를 사용하여 값을 저장하거나 얻어냅니다
 		//static이 아닌 멤버 매서들에서 접근이 불가능합니다
 	}
-
 }
+/*
+static메서드
+static멤버필드와 같이 프로그램의 구동전에 메모리에 로딩되어 객체의 생성없이 클래스의 이름을 사용해
+호출할 수 있는 메서드. 객체생성없이 사용가능 (.)연결해서 사용 
+
+static메서드 실제사용 예
+간단한 공용기능을 제공하기위한 Math클래스
+Math클래스안에 public static int abs(int n){} 와 같은 양식의 sqrt, random메서드가 있음
+abs:절대값계산 메서드/ sqrt:제곱근계산 메서드 / random:난수발생 메서드
+Math클래스의 random메서드는 random클래스의 nextInt()메스드와 
+양식은 다르지만 역할은 같은 메서들입니다
+다만 Math클래스의 random메서드는 static메서드이므로
+Math.random();와 같이 사용하고
+Random클래스의 nextInt()메서드는 동적멤버메서드이므로 객체 생성후 
+호출객체를 앞에 두고 사용합니다 Random rd= newRandom(); / rd.nextInt()%100+1
+
+Integer클래스(int타입과 매핑되는 클래스)
+Integer 클래스의 parseInt 메소드는 문자열로 되어있는 정수값을 int타입으로 반환
+
+String strNum1="123"; / String strNum2="56";
+문자열결합 : System.out.println(strNum1+strNum2);
+문자열의 값을 정수로 변환한 후 연산
+System.out.println(Integer.parseInt(strNum1)+Integer.parseInt(strNum2));
+
+Double클래스(double타입과 매핑되는 클래스)
+Double클래스의 parseDouble메소드는문자열로 되어있는 실수값을 Double타입으로 반환						               
+문자열결합/문자열의값을 실수로 변환한 후 연산 
+
+정수나 실수를 문자로 바꾸는 스태틱메서드는 String클래스내에 있다
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
