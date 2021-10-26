@@ -9,7 +9,7 @@ class ThisA{
 	private int num; //class의 멤버필드는 private로
 	public void setNum(int num /*,ThisA this*/) { //멤버메소드 setNum / 매개변수:int형 num
 		this.num=num;
-//this에는 형재 메서드를 호출한 객체의 참조변수값이 전달되어 저장됨
+//this에는 현재 메서드를 호출한 객체의 참조변수값이 전달되어 저장됨
 //매개변수로 선언된 num변수를 현재 메서드안에서만 사용되는 지역변수로만 사용되고 소멸
 //멤버메서드에서 멤버변수에 접근권한이 있으므로 참조변수 this와 멤버변수가 (.)로 연결되어	사용	
 	}
@@ -38,26 +38,27 @@ public class This {
 	ThisA a2 = new ThisA();
 	a1.setNum(10);
 	a2.setNum(20);
-	a1.display();
-	a2.display();
+	a1.display(); //num=10
+	a2.display(); //num=10
 	
-	ThisA a3 = a1;//a1참조변수값을 a3에 복사하는 동작
+	ThisA a3 = a1; //a1참조변수값을 a3에 복사하는 동작
 	a3.setNum(100);//a3의 맴버변수만 수정
-	a1.display();//출력한 a1과 a3가 모두 수정되어 출력
-	a3.display();
+	a1.display(); //출력한 a1과 a3가 모두 수정되어 출력
+	a3.display(); //num=10
 	//위 연산은 new를 이용하여 a3에 새로운 공간을 만든게 아니라,
-	//a1위 레퍼런스 값만 복사저장한 결과로, a1과 a3는 같은 공간의 주소를 저장하고 있기 때문
+	//a1의 레퍼런스 값만 복사저장한 결과로, a1과 a3는 같은 공간의 주소를 저장하고 있기 때문에
+	//두개다 num=100이 나옴
 	
-	ThisA a4=new ThisA();
-	a4.copy1(a2);//객체복사방법#1
-	a2.setNum(200);
-	a4.display();
-	a2.display();
+	ThisA a4=new ThisA();       
+	a4.copy1(a2);//객체복사방법#1    
+	a2.setNum(200);              
+	a4.display(); //num=20      
+	a2.display(); //num=200
 	
 	//객체복사방법#2
 	ThisA a5= a1.copy2();		
-	a4.display();
-	a5.display();
+	a4.display(); //num=20
+	a5.display(); ///num=100
 
 	}
 
