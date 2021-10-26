@@ -1,4 +1,4 @@
-package Extends;
+package day08_Extends;
 
 /*
 클래스의 상속
