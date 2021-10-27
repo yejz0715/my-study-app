@@ -15,14 +15,13 @@ class SubClass명(자식클래스) extends SuperClass명(부모클래스)
 
 접근지정자와 상속
 부모클래스의 private는 아무리 자식클래스라고해도 접근할수 없다
-private:현재 클래스내에 있는 멤버메서드를 통해서만 접근가능한 은닉 멤버변수
+private:현재 클래스내에 있는 멤버메서드를 통해서만 접근가능한 은닉멤버변수
 */
 
 
 class SuperA{
 	private int n1; //은닉멤버변수/ public메소드 있어야 접근가능
-	public int n2;
-	
+	public int n2;	
 	//디폴트 접근지정자:동일한패키지 내부에서는 public으로 동작/ 다른패키지에선 private로 동작
     int n3;
     public int getN1() {return n1;}
