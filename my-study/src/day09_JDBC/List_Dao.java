@@ -7,6 +7,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+
+
 public class List_Dao {
 	String driver="oracle.jdbc.driver.OracleDriver";
 	String url="jdbc:oracle:thin:@localhost:1521:xe";
@@ -34,7 +36,7 @@ public class List_Dao {
 		public ArrayList<List_Dto> select() {
 			ArrayList<List_Dto>list=new ArrayList<List_Dto>();
 			con=getConnection();
-			String sql="select * from List";
+			String sql= " select * from List " ;
 			
 			try {
 				pstmt=con.prepareStatement(sql);
@@ -64,8 +66,21 @@ public class List_Dao {
 			close();			
 		return result;
 		}
+		public void delete(String num) {
+			con=getConnection();
+			String sql="delete from listnum where num=?";
+			try {
+			pstmt=con.prepareStatement(sql);
+			pstmt.setInt(1, Integer.parseInt(num));
+			pstmt.executeUpdate();
+			}catch(SQLException e) {e.printStackTrace();
+			}
+			close();
+			
+		}
 		
-
+		
+		
 
 
 

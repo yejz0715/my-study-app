@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
+
+
 public class List_Driver {
 
 	public static void main(String[] args) {
@@ -11,15 +13,14 @@ public class List_Driver {
 			Scanner sc=new Scanner(System.in);
 			System.out.println("\n---메뉴 선택---");
 			System.out.printf("1.데이터추가");  System.out.printf("2.데이터열람");
-			System.out.printf("3.데이터수정");  System.out.printf("4.데이터삭제");
-			System.out.println("5.프로그램 종료");  System.out.print(">>메뉴선택:");
+			  System.out.printf("3.데이터삭제");
+			System.out.println("4.프로그램 종료");  System.out.print(">>메뉴선택:");
 		    String choice=sc.nextLine();
-		    if(choice.equals("5")) break;
+		    if(choice.equals("4")) break;
 		    switch (choice) {
 			case "1": insert(); break;
 			case "2": select(); break;
-			case "3": update(); break;
-			case "4": delete(); break;
+			case "3": delete(); break;
 			default:System.out.println("잘못입력했습니다");				
 			}
 		    System.out.println("프로그램종료");
@@ -58,13 +59,14 @@ public class List_Driver {
 		   else System.out.println("레코드 추가 실패");	
 	}
 
-	private static void update() {
-		// TODO Auto-generated method stub
-		
-	}
-
+	
 	private static void delete() {
-		// TODO Auto-generated method stub
+		List_Dao bdao = new List_Dao();
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.print("삭제할 번호를 입력하세요");
+		String num=sc.nextLine();
+		bdao.delete(num);
 		
 	}
 
