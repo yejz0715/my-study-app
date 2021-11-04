@@ -112,7 +112,6 @@
 	float: left;
 	border: 1px solid #FFFFFF;
 } */
-
 h1 {
 	margin-bottom: 92px;
 }
@@ -150,11 +149,27 @@ h1 {
 }
 
 .login_container {
-	width: 100vw; 
+	width: 100vw;
 	height: 100vh;
 	display: flex; /* 컨테이너 안에 있는 아이템들을 설정된 속성에 따라 배치되는 것 */
 	flex-direction: column; /* 배치방향: 세로 / reverse:역순 */
 	justify-content: center; /* 메인축방향으로정렬: 가운데정렬*/
-	align-items: center;     /* 수직축방향으로정렬: 가운데정렬 */
+	align-items: center; /* 수직축방향으로정렬: 가운데정렬 */
 	background: white;
+}
+
+p {
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	color: #999999;
+	margin-top: 40px;
+}
+
+a {
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	color: #999999;
+	margin-top: 8px;
 }
