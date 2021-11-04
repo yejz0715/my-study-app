@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/* 처음에 한거
+    body {
+	background: #e5e5e5;
+}
+
+.login {
+	position: relative;
+	height: 700px;
+	width: 1152px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+
+.box_title {
+	position: absolute;
+	width: 483px;
+	height: 42px;
+	left: 323px;
+	top: 138px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 33px;
+	line-height: 42px;
+	color: #2e2d2d;
+}
+
+.box_id {
+	position: absolute;
+	width: 500px;
+	height: 48px;
+	left: 314px;
+	top: 273px;
+	background: #FFFFFF;
+	border: 1px solid #d1d1d1;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.label_id {
+	position: absolute;
+	width: 34px;
+	height: 14px;
+	left: 332px;
+	top: 290px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	color: #999999;
+}
+
+.box_pwd {
+	position: absolute;
+	width: 500px;
+	height: 48px;
+	left: 314px;
+	top: 339px;
+	background: #FFFFFF;
+	border: 1px solid #d1d1d1;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.label_pwd {
+	position: absolute;
+	width: 44px;
+	height: 14px;
+	left: 332px;
+	top: 359px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	color: #999999;
+}
+
+.box_submit {
+	position: absolute;
+	width: 500px;
+	height: 48px;
+	left: 314px;
+	top: 414px;
+	background: #3DC2FB;;
+	border: 1px solid #3EBCF1;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.label_submit {
+	position: absolute;
+	width: 69px;
+	height: 27px;
+	left: 526px;
+	top: 427px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #FFFBFB;
+}
+
+.item {
+	position: relative;
+	width: 500px;
+	height: 48px;
+	float: left;
+	border: 1px solid #FFFFFF;
+} */
+h1 {
+	margin-bottom: 92px;
+}
+
+#login_button {
+	background-color: #3DC2FB;
+	width: 500px;
+	height: 48px;
+	border: none;
+	box-sizing: border-box;
+	margin-top: 22px;
+	border-radius: 4px;
+	color: #FFFBFB;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+#login_button:hover { /*login_button에 마우스커서를 갖다대면  */
+	background-color: #33A3D2;
+}
+
+.login_input:focus { /* login_input에 포커스를 갖다대면  */
+	outline: none;
+	border: 1px solid #3DC2FB;
+}
+
+.login_input {
+	width: 500px;
+	height: 48px;
+	padding-left: 18px;
+	border: 1px solid #d1d1d1;
+	margin-bottom: 18px;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.login_container {
+	width: 100vw;
+	height: 100vh;
+	display: flex; /* 컨테이너 안에 있는 아이템들을 설정된 속성에 따라 배치되는 것 */
+	flex-direction: column; /* 배치방향: 세로 / reverse:역순 */
+	justify-content: center; /* 메인축방향으로정렬: 가운데정렬*/
+	align-items: center; /* 수직축방향으로정렬: 가운데정렬 */
+	background: white;
+}
+
+p {
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	color: #999999;
+	margin-top: 40px;
+}
+
+a {
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	color: #999999;
+	margin-top: 8px;
+}
