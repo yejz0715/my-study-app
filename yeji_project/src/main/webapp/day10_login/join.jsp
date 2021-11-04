@@ -6,7 +6,19 @@
 <title>Insert title here</title>
 </head>
 <body>
-안녕
+<h1>회원가입</h1>
+
+<div class=join>
+<input type="text" id="name"/>
+<input type="text" id="id"/>
+<input type="password" id="pwd" />
+<input type="password" id="pwd_check" />
+<input type="radio" value="여성" />
+<input type="radio" value="남성" />
+<input type="text" >
+<input type="button" value="회원가입"/>
+
+</div>
 
 </body>
 </html>
