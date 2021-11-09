@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+h1 {
+	margin-bottom: 67px;
+}
+
+.join { /*하나의 조인div를 flex사용*/
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: white;
+}
+
+.join_input {
+	width: 500px;
+	height: 48px;
+	background: #ffffff;
+	border: 1px solid #3dc2fb;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin-bottom: 18px;
+	padding: 17px 18px;
+	color: #D1D1D1;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.checkid {
+	display: flex;
+	/*flex로 id, id_check 간격해결  */
+}
+
+#id {
+	width: 387px;
+	margin: 0;
+	border-radius: 4px 0px 0px 4px;
+	margin-right: 0;
+}
+
+#pwd_check {
+	margin: 0;
+	text-decoration-line: underline; /*밑줄*/
+}
+
+#id_check {
+	width: 114px;
+	height: 48px;
+	background: #3DC2FB;
+	border: 4px solid #3DC2FB;
+	box-sizing: border-box;
+	border-radius: 0px 4px 4px 0px;
+	font-size: 20px;
+	line-height: 23px;
+	color: #FFFBFB;
+	cursor: pointer;
+}
+
+p {
+	/*width: 340px; 기본 join_input사이즈로 맞춰야함 500으로(왼쪽정렬안되는거 해결) */
+	width: 500px; height : 14px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	color: #D1D1D1;
+	margin-top: 4px;
+	margin-bottom: 18px;
+	height: 14px;
+}
+
+p:last-child {
+	margin-bottom: 18px;
+} 
+.radio_gender {
+	/*float: left;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 18px;
+}
+
+.radio_gender input[type="radio"] { /*기존의 라디오 버튼 스타일 제거*/
+	display: none;
+}
+
+.radio_gender input[type="radio"]+label { /*우리가 만들 UI  */
+	width: 64px;
+	height: 36px;
+	background: #3DC2FB;
+	border: 1px solid #E5E5E5;
+	box-sizing: border-box;
+	border-radius: 4px;
+	/*  font-size: 12px; 주석안하면 버튼 아래부분이 겹쳐짐
+	line-height: 14px;  */
+	padding: 11px 20px;
+	color: #FFFFFF;
+	/*margin-bottom: 18px;  안됨-3 */
+}
+
+.radio_gender input[type="radio"]:checked+label { /* 체크된 라디오 버튼 UI */
+	background-color: #33A3D2;
+}
+
+textArea {
+	width: 500px;
+	height: 193px;
+	background: #FFFFFF;
+	border: 1px solid #D1D1D1;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin-bottom: 27px;
+	font-size: 12px;
+	line-height: 14px;
+	color: #D1D1D1;
+	padding: 16px 19px;
+	text-decoration-line: underline;
+	resize: none;
+	/*textarea는 기본적으로 resizing속성을 가지고있어서 고정된 크기를 사용할 때는 resize:none; 필요
+  resizing: 그래픽데이터, 파일을 미리 주어진 변수에 맞도록 크기재조정 하는것 */
+}
+
+.join_button {
+	width: 500px;
+	height: 48px;
+	background: #3DC2FB;
+	border: 4px solid #3DC2FB;
+	box-sizing: border-box;
+	border-radius: 4px;
+	color: #fffbfb;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 28px;
+}
