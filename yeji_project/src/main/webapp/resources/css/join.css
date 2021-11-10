@@ -79,6 +79,7 @@ p:last-child {
 	flex-direction: row;
 	justify-content: center;
 	margin-bottom: 18px;
+	/*margin-bottom:안되는 거 flex이용해서 해결 */
 }
 
 .radio_gender input[type="radio"] { /*기존의 라디오 버튼 스타일 제거*/
@@ -92,11 +93,11 @@ p:last-child {
 	border: 1px solid #E5E5E5;
 	box-sizing: border-box;
 	border-radius: 4px;
-	/*  font-size: 12px; 주석안하면 버튼 아래부분이 겹쳐짐
-	line-height: 14px;  */
+	  font-size: 12px; 
+	line-height: 14px;  
 	padding: 11px 20px;
 	color: #FFFFFF;
-	/*margin-bottom: 18px;  안됨-3 */
+	
 }
 
 .radio_gender input[type="radio"]:checked+label { /* 체크된 라디오 버튼 UI */
