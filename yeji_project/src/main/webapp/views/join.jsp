@@ -24,7 +24,7 @@
 		<input type="password" class="join_input" id="pwd" placeholder="비밀번호" />
 		<input type="password" class="join_input" id="pwd_check"
 			placeholder="비밀번호확인" />
-		<p align="left">비밀번호는 영문과 숫자 및 특수문자 조합만 가능합니다(8-20자리)</p>
+		<p align="left">비밀번호는 영문과 숫자 및 특수문자 조합만 가능합니다.(8-20자리)</p>
 		<div class=radio_gender>
 			<input type="radio" name="gender" id="female" checked="checked" />
 			<!-- name아닌 id로 한경우 버튼두개 눌러짐 -->
