@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 // 아이디 중복 확인 
 function duplicateId() {
-	//console.log(`duplicateId()...`)
+	//console.log(`duplicateId()...`) 콘솔로그 많이 사용하기
 
 	var userId = $("#id").val();
 	if (userId == 'admin') $('#guide_id').css("color", "red").text("이미 등록된 아이디 입니다. 다시 입력해주세요!")
