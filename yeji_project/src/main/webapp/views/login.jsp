@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>login</title>
-<link rel="stylesheet" type="text/css" href="login.css">
+<link rel="stylesheet" type="text/css" href="../resources/css/login.css">
 <!-- <script src="script/login.js"></script> -->
 
 <!-- javascript 변수  
