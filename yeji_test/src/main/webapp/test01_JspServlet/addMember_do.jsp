@@ -38,7 +38,7 @@ try{
 }
 
 response.sendRedirect("MemberMGR.jsp");
-
+//MemberMGR.jsp로 이동 
 %>
 
 

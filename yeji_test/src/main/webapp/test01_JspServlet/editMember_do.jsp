@@ -33,4 +33,5 @@ try{
 	} catch (Exception e) {	e.printStackTrace();	}
 }
 response.sendRedirect("MemberMGR.jsp");
+//MemberMGR.jsp로 이동
 %>

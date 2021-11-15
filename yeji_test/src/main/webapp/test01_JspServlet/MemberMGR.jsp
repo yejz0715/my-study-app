@@ -25,7 +25,7 @@
 <table width="800" border="1">
 	<tr><th>이름</th><th>아이디</th><th>암호</th><th>전화번호</th><th>삭제</th></tr>
 	<%
-		try{
+		try{ //db연결
 			Class.forName(driver);
 			con = DriverManager.getConnection(url, uid, pass);
 			pstmt = con.prepareStatement(sql);
