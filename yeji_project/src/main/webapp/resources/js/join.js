@@ -1,23 +1,24 @@
 
-//전역변수만들기 아이디비번
+//유효성검사할 아이디,비번의 전역변수
+ 
+var id = $("#id").val();
+var pwd = $("#pwd").val();
+
+console.log(`id`,id);
+
 $(document).ready(function() {
 	
 	// 비밀번호 중복 확인 
 	$('.join_input_password').focusout(function() {
 
-		var userPwd = $("#pwd").val();
+		var userPwd = $("#pwd").val(); //#pwd의 값을 userPwd에 전달
 		var userPwd_chk = $("#pwd_check").val();
 
 		if (userPwd > 0 && userPwd == userPwd_chk) $('#guide_pwd').css("color", "#038900").text("비밀번호가 일치합니다 :)")
 		else $('#guide_pwd').css("color", "#FF0000").text("비밀번호가 일치하지 않습니다. 다시 입력해주세요!")
 	});
-	
-	
-	
-	
-	
-
 //시도는 이안에아이디비번 중복체크
+
 
 
 });
@@ -51,16 +52,10 @@ function duplicateId() { // 중복확인버튼 클릭하면 duplicateId함수실
 };
 
 
-//필수값
-function joinButton(){
-	if($('#id') !=0)
-		alert(`회원가입이 완료되었습니다 :) `);
-				
-};
+
 
 //유효성검사
 // id 검증 함수 
-
 	function validateId(id) {
 		const regExpId = /^[a-z]+[a-z0-9]{4,20}$/g; //변수선언
 		return regExpId.test(id);  
@@ -70,13 +65,20 @@ function joinButton(){
 		const regExpPwd = /^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#$%^*+=-]).{10,20}$/;
 		return regExpPwd.test(pwd); 
 	}
-
+	
+//필수값
+function joinButton(){
+	if($('#id') !=0)
+		alert(`회원가입이 완료되었습니다 :) `);
+				
+};
 
 //history()이동할때 사용 
 //onclick을 두개사용하기보다는 
 
-/*<!--  location.href='login.jsp' --> 
-                  <!-- onclick에 이벤트 두개사용(함수/페이지이동) -->
+/* location.href='login.jsp' : 페이지이동은 js이므로 jsp에 적으면 실행x 
+   필수조건이 입력되면 페이지이동
+   
 */
 
 

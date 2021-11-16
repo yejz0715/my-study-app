@@ -40,8 +40,7 @@
 		<input type="button" class="join_button" id="button" value="회원가입"
 			onclick="joinButton()" />
 			      
-
-	</div>
-
+<!-- onclick에 이벤트 두개사용이 가능-->	
+</div>
 </body>
 </html>
