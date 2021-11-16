@@ -1,8 +1,7 @@
 
+//전역변수만들기 아이디비번
 $(document).ready(function() {
-	console.log('start!')
-
-
+	
 	// 비밀번호 중복 확인 
 	$('.join_input_password').focusout(function() {
 
@@ -13,13 +12,20 @@ $(document).ready(function() {
 		else $('#guide_pwd').css("color", "#FF0000").text("비밀번호가 일치하지 않습니다. 다시 입력해주세요!")
 	});
 	
+	
+	
+	
+	
+
+//시도는 이안에아이디비번 중복체크
+
+
 });
 
 
 // 아이디 중복 확인 
 function duplicateId() { // 중복확인버튼 클릭하면 duplicateId함수실행      
-	console.log(`duplicateId()..
-	.`); //콘솔로그 사용하기
+		
 	var userId = $("#id").val(); //1 입력한 아이디값 받아오기 #id의 값을 userId에 전달/ $("#id").val(); : 값얻어오기
 
 	if (userId == 'admin') {
@@ -53,19 +59,25 @@ function joinButton(){
 };
 
 //유효성검사
-/* id 검증 함수 
+// id 검증 함수 
+
 	function validateId(id) {
 		const regExpId = /^[a-z]+[a-z0-9]{4,20}$/g; //변수선언
-		return regExpId.test(id); // test => boolean 
+		return regExpId.test(id);  
 	}
 	// pwd 검증 함수
 	function validatePwd(pwd) {
 		const regExpPwd = /^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#$%^*+=-]).{10,20}$/;
-		return regExpPwd.test(pwd); // test => boolean
+		return regExpPwd.test(pwd); 
 	}
+
+
+//history()이동할때 사용 
+//onclick을 두개사용하기보다는 
+
+/*<!--  location.href='login.jsp' --> 
+                  <!-- onclick에 이벤트 두개사용(함수/페이지이동) -->
 */
-
-
 
 
 

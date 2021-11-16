@@ -39,8 +39,7 @@
 		<textArea placeholder="간단한 소개글을 작성해보세요"></textArea>
 		<input type="button" class="join_button" id="button" value="회원가입"
 			onclick="joinButton()" />
-			      <!--  location.href='login.jsp'--> 
-                  <!-- onclick에 이벤트 두개사용(함수/페이지이동) -->
+			      
 
 	</div>
 
