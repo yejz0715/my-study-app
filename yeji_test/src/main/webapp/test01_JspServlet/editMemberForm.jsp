@@ -8,7 +8,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<%!
+
+<%! //db연결
 Connection con = null;
 PreparedStatement pstmt = null;
 ResultSet rs = null;

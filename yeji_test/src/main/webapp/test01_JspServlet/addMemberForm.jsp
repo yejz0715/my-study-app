@@ -7,7 +7,7 @@
 </head>
 <body>
 <h2>회원의 정보 입력 폼</h2>
-<form method="get" action="addMember_do.jsp">
+<form method="get" action="addMember_do.jsp"> 
 	<table>
 		<tr><td>이름</td><td><input type="text" name="name" size="20"></td></tr>
 		<tr><td>아이디</td><td><input type="text" name="userid" size="20"></td></tr>
