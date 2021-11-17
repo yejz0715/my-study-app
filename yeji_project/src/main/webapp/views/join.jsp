@@ -16,16 +16,16 @@
 	<div class=join>
 		<h1>회원가입</h1>
 
-		<input type="text" class="join_input" id="name" placeholder="이름"
+		<input type="text" class="join_input" id="name" placeholder="이름 * "
 			required />
 		<div class="checkid">
-			<input type="text" class="join_input" id="id" placeholder="아이디" /> <input
+			<input type="text" class="join_input" id="id" placeholder="아이디 * " /> <input
 				type="button" value="중복확인" id="id_check" onclick="duplicateId()" />
 			<!--버튼누르면 duplicateId()함수실행  -->
 		</div>
 		<p align="left" id="guide_id">아이디는 영문과 숫자조합만 가능합니다(4-20자리)</p>
 		<input type="password" class="join_input join_input_password" id="pwd" 
-			placeholder="비밀번호" /> <input type="password"   
+			placeholder="비밀번호 * " /> <input type="password"   
 			class="join_input join_input_password" id="pwd_check"
 			placeholder="비밀번호확인" /> <!-- 두개의 클래스사용할때 띄어쓰기하고 입력하면됨 -->
 		<p align="left" id="guide_pwd">비밀번호는 영문과 숫자 및 특수문자 조합만

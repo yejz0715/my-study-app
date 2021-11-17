@@ -68,8 +68,13 @@ function duplicateId() { // 중복확인버튼 클릭하면 duplicateId함수실
 	
 //필수값
 function joinButton(){
-	if($('#id') !=0)
+	if($('#name') ==0 && $('#id') ==0 && $('#pwd') ==0 ){
+		alert(`* 필수값을 입력해주세요 :) `);
+		
+	  }else{
 		alert(`회원가입이 완료되었습니다 :) `);
+		location.href='login.jsp';
+	}	
 				
 };
 
