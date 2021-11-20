@@ -2,7 +2,7 @@
 <%@ include file="header.jsp" %>
 
 <div class="search">
-
+<input type="text" placeholder="찾으시는 상품을 검색해보세요"/>
 
 </div>
 
@@ -13,7 +13,7 @@
 </div> 
 
 <div class="best_item">
-
+오늘의 인기상품!
 
 
 
