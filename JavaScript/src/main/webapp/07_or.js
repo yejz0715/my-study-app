@@ -1,4 +1,4 @@
-//논리연산자
+//논리연산자 (or, and, not)
 
 const name1="Mike";
 const age=30;
