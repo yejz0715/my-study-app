@@ -1,4 +1,4 @@
-//조건문
+//조건문 : conditional
 //if, else, else if
 
 //if
