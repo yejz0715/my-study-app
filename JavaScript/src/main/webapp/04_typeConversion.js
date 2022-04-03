@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>형변환</title>
-
-<script type="text/javascript">
 //typeConversion 형변환
 
 //형변환이 필요한 이유?
@@ -33,11 +26,3 @@ console.log(Number("123"),Number("dddd"),Number(true),Number(false))
 //이외에는 true 변환
 //Boolean(0)-false / Boolean('0')-true
 //Boolean('')-false / Boolean(' ')-true
-
-</script>
-
-</head>
-<body>
-
-</body>
-</html>

@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>생성자함수</title>
-    <script type="text/javascript">
+// intermediateClass 생성자함수
+
         //객체 리터럴
         let user={
             name:'jine',
@@ -26,9 +20,4 @@
         let item3=new Item('지갑', 4000);  //new를 쓰지않으면 그냥 함수실행 ->undefined로 나옴
         console.log(item1,item2,item3); //Item{title:"인형",price:3000,showPrice:f} 
         item3.showPrice(); //가격은 9000원 입니다
-    </script>
-</head>
-<body>
     
-</body>
-</html>

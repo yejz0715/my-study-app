@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>변수,호이스팅,TDZ(Temporal Dead Zone)</title>
-    <script type="text/javascript">
+//variable
+//변수,호이스팅,TDZ(Temporal Dead Zone)
+  
         //변수생성과정
         //1선언 2초기화 3 할당
         //var 1선언 및 초기화 2할당 (var과 let은 선언만 먼저하고 나중에 할당해도 됨)
@@ -46,9 +41,4 @@
         name='mike';
         
 
-    </script>
-</head>
-<body>
     
-</body>
-</html>

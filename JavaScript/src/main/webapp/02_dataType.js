@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>자료형</title>
-<script type="text/javascript">
+//dataType-자료형
 
 //-문자형( " "/ ' '/ ` `)
 //javascript에서 문자는 " ", ' ' 붙여줘야함
@@ -30,9 +25,3 @@ const b=false; //거짓
 
 //typeof 연산자 : 변수의 자료형을 알아낼 수 있다
 console.log(typeof 3); //number
-</script>
-</head>
-<body>
-
-</body>
-</html>

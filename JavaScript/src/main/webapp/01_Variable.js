@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>변수</title>
-<script type="text/javascript">
 
 //변수:어떤 정보에 이름을 붙여서 저장하고싶을때 사용
 
@@ -22,9 +16,3 @@ alert(name1);
 4.상수는 대문자로
 5.변수명은 읽기 쉽고 이해할 수 있게 선언
 */
-
-</script>
-</head>
-<body>
-</body>
-</html>

@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>조건문</title>
-<script type="text/javascript">
-
 //조건문 : conditional
 //if, else, else if
 
@@ -32,11 +25,3 @@ if(age > 19){
 }else{
 	console.log('안녕히 가세요');
 } 
-</script>
-
-
-</head>
-<body>
-
-</body>
-</html>

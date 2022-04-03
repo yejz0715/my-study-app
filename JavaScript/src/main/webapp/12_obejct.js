@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>객체</title>
-    <script type="text/javascript">
+//object-객체
+
         //객체(key와value으로 구성됨)
         //property(프로퍼티):어떤 값을 나타냄/이값이 다른값과 연관되어있을때
         const superman={
@@ -45,9 +39,3 @@
             console.log(key)  //1-name  2-age
             console.log(superman[key]) //1-clark  2-33
         }
-    </script>
-</head>
-<body>
-    
-</body>
-</html>

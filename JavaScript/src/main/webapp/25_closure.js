@@ -7,7 +7,7 @@ function makeCounter(){
     return function () {
         return num++;
     };
-}                           //내부함수에서 외부함수의 변수(num)에 접근
+}       //내부함수에서 외부함수의 변수(num)에 접근
 let counter=makeCounter;
 console.log(counter()); //0  
 console.log(counter()); //1

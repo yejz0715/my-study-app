@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>반복문</title>
-
-<script type="text/javascript">
-
 //반복문 loop
 //for, while, do while
 
@@ -43,11 +35,3 @@ for(let i=0; i<10; i++){
 	}
 	console.log(i);
 }
-</script>
-
-
-</head>
-<body>
-
-</body>
-</html>

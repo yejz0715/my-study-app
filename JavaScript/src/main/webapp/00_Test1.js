@@ -25,6 +25,7 @@ console.log(color);
 
 const f = foods.map((food, index) => ` ${index + 1} ${food}`);
 console.log(f);
+
 // Q3. introduce() 1) 결과값에 m이 포함되어 있는지 확인하고,
 // 2) 있다면 해당 문자열의 위치를 출력하고 없다면 없음이라는 결과를 출력하기
 const {

@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-<script type="text/javascript">
-
 //함수 function
 //:하나의 특별한 목적의 작업을 수행하도록 설계된 독립적인 블록 /필요할때마다 호출하여 해당 작업을 반복해서 수행할 수 있다
 //함수선언문
@@ -81,7 +72,3 @@ function add(a,b){
 }
 const result=add(2,4);
 console.log(result);
-
-</script>
-</body>
-</html>

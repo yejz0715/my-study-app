@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>parameters(나머지 매개변수), Spread syntax(전개구문)</title>
-    <script type="text/javascript">
+//parameters(나머지 매개변수), Spread syntax(전개구문)
+    
     //arguments:함수로 넘어 온 모든 인수에 접근
     //함수내에서 이용 가능한 지역변수
     //length /index(배열x), Array형태의 객체, 배열의 내장메서드(forEach,map)사용x
@@ -27,9 +21,3 @@
 
     arr1=[...arr2, ...arr1]; 
     console.log(arr1); //[4,5,6,1,2,3]
-    </script>
-</head>
-<body>
-    
-</body>
-</html>

@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>array method</title>
-    <script type="text/javascript">
+//array method
 //Array
 //push():뒤에 삽입, pop():뒤에 삭제 , unshift():앞에 삽입, shift():앞에 삭제
 arr.splice(n,m); //특정요소 지움 n:시작/ m:개수
@@ -42,9 +35,3 @@ let newUserList=userList.map((user, index)=>{
 //split 문자열을 나눠서 배열을 만들때 사용
 
 //Array.isArray() 배열인지 아닌지
-</script>
-</head>
-<body>
-    
-</body>
-</html>

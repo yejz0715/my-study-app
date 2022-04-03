@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>연산자</title>
-<script type="text/javascript">
 //operators 연산자 / comparisonOperator 비교연산자
 
 //+, -, *, /, %
@@ -38,11 +32,3 @@ const b="1";
 console.log(a==b); //true 
 //=== 일체연산자
 console.log(a===b); //false '===' 를 사용하면 type도 비교해줌
-</script>
-
-
-</head>
-<body>
-
-</body>
-</html>

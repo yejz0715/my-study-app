@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>대화상자</title>
-<script type="text/javascript">
+//대화상자
+
 //대화상자: alert,prompt,confirm
 
 //alert :메세지창을 띄어줌
@@ -21,9 +17,3 @@ const isAdult=confirm("당신은 성인 입니까?");
 
 //대화상자는 빠르고 간편하게 사용할수있지만,
 //단점은 스크립트 일시 정지 / 스타일링x 
-</script>
-
-</head>
-<body>
-</body>
-</html>

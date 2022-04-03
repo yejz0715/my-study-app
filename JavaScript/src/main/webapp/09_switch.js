@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>switche</title>
-
-<script type="text/javascript">
-
+//switche
 
 //사과 100원
 //바나나 200원
@@ -36,11 +29,3 @@ switch(fruit){
 		console.log('그런과일은 없습니다.');
 	
 }
-</script>
-
-
-</head>
-<body>
-
-</body>
-</html>

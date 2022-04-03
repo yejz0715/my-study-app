@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>함수선언문,화살표 함수</title>
-</head>
-<body>
-<script type="text/javascript">
+//arrow function-함수선언문,화살표 함수
 
 //함수선언문 :10에서 배운 내용 
  sayHello0(); // hello : 어디서든 호출가능
@@ -28,7 +19,3 @@ const sayHello2=(name)=>{
     console.log(msg);
 }
 sayHello2('jine');
-
-    </script>
-</body>
-</html>

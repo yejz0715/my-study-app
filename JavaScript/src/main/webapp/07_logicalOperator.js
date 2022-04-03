@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>논리연산자</title>
-
-<script type="text/javascript">
 //논리연산자:logicalOperator (or, and, not)
 
 const name1="Mike";
@@ -46,11 +39,3 @@ if(gender==='남자' && name2==='Mike' || ault){
 		console.log('돌아가');
 	}; //통과
 	//&& 가 ||보다 우선순위가 높기때문에 통과
-</script>
-
-
-</head>
-<body>
-
-</body>
-</html>

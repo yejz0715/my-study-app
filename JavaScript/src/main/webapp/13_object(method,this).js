@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>객체(method, this)</title>
-<script type="text/javascript">
-    //method:객체 프로퍼티로 할당 된 함수
+//object2-객체 (method, this)
 
+    //method:객체 프로퍼티로 할당 된 함수
 //1
     let girl={
         name:"jin",
@@ -29,8 +22,5 @@
 
     //화살표함수는 일반함수와 달리 자신만의 this를 가지지않음
     //화실표함수 내부에서 this를 사용하면 그 this는 외부에서 값을 가져옴
-</script>
-</head>
-<body>
-</body>
-</html>
+ 
+    
