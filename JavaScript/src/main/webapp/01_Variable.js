@@ -1,11 +1,10 @@
-
 //변수:어떤 정보에 이름을 붙여서 저장하고싶을때 사용
 
 //let: 할당값을 바꿀수 있다.
-let name ="hi yeji";
-alert(name);
+let name2 = "hi yeji";
+alert(name2);
 //const:절대로 바뀌지 않는 상수 (수정x)
-const name1="hello yeji";
+const name1 = "hello yeji";
 alert(name1);
 
 /*
