@@ -21,5 +21,5 @@ const female = {
 console.log(female);
 //test1
 //book의 title을 이용해서 코드 2번째 줄이 책의 제목을 출력하도록 만들어 보세요.
-var book = { title: "어린왕자" };
+const book = { title: "어린왕자" };
 console.log("제목:", book.title);

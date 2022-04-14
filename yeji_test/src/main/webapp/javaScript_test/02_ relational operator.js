@@ -5,4 +5,4 @@ function solution(a, b) {
   if (a && b) return true;
   else return false;
 }
-console.log(solution(false, false));
+console.log(solution(false, false)); //false
