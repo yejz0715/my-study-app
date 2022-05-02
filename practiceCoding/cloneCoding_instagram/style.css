@@ -1,0 +1,43 @@
+#loginPge {
+  display: flex;
+  flex-direction: row;
+}
+#login_leftImg {
+  position: relative;
+  margin-left: 297px;
+  margin-top: 220px;
+}
+.login_pone {
+  position: relative;
+  width: 465px;
+  height: 635px;
+}
+.login_poneImg {
+  position: absolute;
+  width: 250px;
+  height: 541px;
+  left: 159px;
+  top: 28px;
+  margin-right: 56px;
+}
+#container {
+  position: relative;
+  width: 350px;
+  height: 600px;
+}
+.login_container {
+  position: relative;
+  width: 350px;
+  height: 382px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 236px;
+}
+.login_logo {
+  position: relative;
+  width: 183px;
+  height: 57px;
+  left: 55px;
+  margin: 25px;
+}
