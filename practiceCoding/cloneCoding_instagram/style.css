@@ -1,3 +1,6 @@
+body {
+  background-color: #f9f9f9;
+}
 #loginPge {
   display: flex;
   flex-direction: row;
@@ -23,7 +26,9 @@
 #container {
   position: relative;
   width: 350px;
-  height: 600px;
+  /* height: 600px;*/
+  display: flex;
+  flex-direction: column;
 }
 .login_container {
   position: relative;
@@ -40,4 +45,71 @@
   height: 57px;
   left: 55px;
   margin: 25px;
+}
+.login_idPw {
+  position: relative;
+  width: 268px;
+  height: 39px;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  margin-left: 41px;
+  margin-bottom: 15px;
+}
+.login_btn {
+  position: relative;
+  width: 268px;
+  height: 30px;
+  margin-left: 41px;
+  background: rgba(0, 149, 246, 0.25);
+  border: none;
+  border-radius: 4px;
+  padding-top: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+}
+#google {
+  position: relative;
+  width: 266px;
+  height: 34px;
+  background-color: #efefef;
+  border-radius: 59px;
+  margin: 26px 42px;
+  display: flex;
+  flex-direction: row;
+}
+.login_googleLogo {
+  position: relative;
+  width: 20px;
+  height: 21px;
+  margin: 6px 20px;
+  padding-left: 20px;
+}
+.google_text {
+  position: relative;
+  margin-top: 10px;
+  font-size: 11px;
+  font-weight: bold;
+  fon
+  
+
+}
+.join_container {
+  position: relative;
+  width: 350px;
+  height: 63px;
+  background-color: #ffffff;
+  border: 1px solid #efefef;
+  margin-top: 10px;
+}
+
+.down_button {
+  display: flex;
+  flex-direction: row;
+}
+.login_down {
+  position: relative;
+  width: 135px;
+  height: 40;
 }
