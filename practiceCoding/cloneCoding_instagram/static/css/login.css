@@ -7,8 +7,8 @@ body {
 }
 #login_leftImg {
   position: relative;
-  margin-left: 297px;
-  margin-top: 220px;
+  margin-left: 400px;
+  margin-top: 200px;
 }
 .login_pone {
   position: relative;
@@ -26,7 +26,6 @@ body {
 #container {
   position: relative;
   width: 350px;
-  /* height: 600px;*/
   display: flex;
   flex-direction: column;
 }
@@ -37,7 +36,7 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  margin-top: 236px;
+  margin-top: 200px;
 }
 .login_logo {
   position: relative;
@@ -91,9 +90,13 @@ body {
   margin-top: 10px;
   font-size: 11px;
   font-weight: bold;
-  fon
-  
-
+}
+.confirm {
+  position: relative;
+  font-size: 11px;
+  font-weight: 550;
+  color: #0095f6;
+  margin-left: 112px;
 }
 .join_container {
   position: relative;
@@ -103,13 +106,36 @@ body {
   border: 1px solid #efefef;
   margin-top: 10px;
 }
-
+#confirm2 {
+  position: absolute;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 24px;
+  margin-left: 70px;
+}
+#sign {
+  position: absolute;
+  font-size: 14px;
+  color: #0095f6;
+  font-weight: bold;
+  margin: 24px;
+  margin-left: 220px;
+}
+#downText {
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 75px;
+  margin: 21px;
+}
 .down_button {
   display: flex;
   flex-direction: row;
+  padding-left: 40px;
 }
 .login_down {
   position: relative;
   width: 135px;
   height: 40;
+  margin-right: 6px;
 }
