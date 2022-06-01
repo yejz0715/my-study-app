@@ -9,32 +9,38 @@ body {
 }
 .container {
   width: 100%;
-  height: 100%;
+  height: 92vh;
   background-color: #8e8e8e;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .main {
+  margin-top: 5vh;
   width: 50vw;
-  height: 25vh;
+  height: 50vh;
   display: flex;
+  align-items: center;
   flex-direction: row;
   background-color: #efefef;
 }
 .mainTop {
-  width: 20vw;
-  height: 20vh;
+  width: 23vw;
+  height: 25vh;
+  margin-left: 18px;
   background-color: white;
 }
 .mainFeed {
-  margin-left: 10px;
-  width: 20vw;
-  height: 20vh;
+  margin-left: 15px;
+  margin-right: 5px;
+  width: 23vw;
+  height: 25vh;
   background-color: white;
 }
 .side {
   margin-top: 50px;
+  margin-bottom: 5vh;
   width: 50vw;
-  height: 25vh;
+  height: 50vh;
   background-color: #efefef;
 }
