@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>login</title>
         <link rel="stylesheet" href="static/css/login.css"/>
+        <script type="text/javascript" src="static/js/login.js"></script>  
     </head>
-    <script type="text/javascript">  
-    </script>
+    
     <body>
         <div id="loginPge">
             <div id="login_leftImg">
@@ -18,9 +18,9 @@
             <div id="container">
                 <div class="login_container">
                     <img class="login_logo" src="static/img/login_logo.png"/>
-                    <input type="text" class="login_idPw" placeholder="Username, or mail"/>
-                    <input type="password" class="login_idPw" placeholder="Password"/>
-                    <div class="login_btn">Log in</div>
+                    <input type="text" id="email" class="login_idPw" placeholder="Username, or mail" onkeyup="validateInputLength()" />
+                    <input type="password" id="pw" class="login_idPw" placeholder="Password" onkeyup="validateInputLength()" />
+                    <button id="btn" class="login_btn" disabled="true" onclick="onClickLoginBtn()">Log in</button>
                     <div class="solid">
                         <img class="solidText" src="static/img/login_solid.png" />OR<img
                           class="solidText"
