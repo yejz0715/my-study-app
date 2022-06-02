@@ -2,17 +2,36 @@
 <html lang="kr">
   <head>
     <meta charset="UTF-8" />
+    <link rel="short icon" href="static/img/icon.ico"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>feed</title>
+    <title>Instagram</title>
     <link rel="stylesheet" href="static/css/feed.css" />
   </head>
   <body>
-    <div class="header"></div>
+    <header>
+      <div class="header_container">
+      <img id="logo_img" src="static/img/login_logo.png" width="103px" />
+      <input id="search_input" type="text" placeholder="검색" />
+      <span id="header_icon">
+        <ul>
+          <li><img src="static/img/home.svg"/></li>
+          <li><img src="static/img/add.svg"/></li>
+          <li><img src="static/img/love.svg"/></li>
+          <li><img src="static/img/ellipse.svg"/></li>
+        </ul>
+      </div>
+      </div>
+    </header>
     <div class="container">
       <div class="main">
-        <div class="mainTop"></div>
-        <div class="mainFeed"></div>
+        <div class="main_top"></div>
+        <div class="main_feed">
+          <div class="feed_name"></div>
+          <div class="feed_img"></div>
+          <div class="feed_text"></div>
+        </div>
+        <div class="main_feed"></div>
       </div>
       <div class="side"></div>
     </div>

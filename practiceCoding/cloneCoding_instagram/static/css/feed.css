@@ -1,46 +1,102 @@
 body {
   display: flex;
   flex-direction: column;
+  margin: 0px;
+  background-color: #f9f9f9f9;
 }
-.header {
+header {
   width: 100%;
-  height: 6vh;
-  background-color: #c4c4c4c4;
-}
-.container {
-  width: 100%;
-  height: 92vh;
-  background-color: #8e8e8e;
+  height: 60px;
+  background-color: #ffffff;
+  border: 1px solid #efefef;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+}
+.header_container {
+  display: flex;
+  width: 924px;
+  background-color: transparent;
   align-items: center;
+}
+#logo_img {
+  cursor: pointer;
+}
+#search_input {
+  width: 252px;
+  height: 36px;
+  background-color: #efefef;
+  border-radius: 8px;
+  border: none;
+  padding-left: 20px;
+  margin: 0 150px;
+}
+#search_input:focus {
+  border: none;
+  outline: none;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.container {
+  background-color: transparent;
+  width: 100%;
+  height: calc(100% - 60px);
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
 }
 .main {
-  margin-top: 5vh;
-  width: 50vw;
-  height: 50vh;
+  background-color: transparent;
+  width: 600px;
   display: flex;
-  align-items: center;
-  flex-direction: row;
-  background-color: #efefef;
+  flex-direction: column;
+  margin-right: 24px;
 }
-.mainTop {
-  width: 23vw;
-  height: 25vh;
-  margin-left: 18px;
-  background-color: white;
+
+.main_top {
+  width: 100%;
+  height: 119px;
+  background-color: #ffffff;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+  margin-bottom: 24px;
 }
-.mainFeed {
-  margin-left: 15px;
-  margin-right: 5px;
-  width: 23vw;
-  height: 25vh;
-  background-color: white;
+.main_feed {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 910px;
+  margin-bottom: 24px;
+  background-color: #ffffff;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+}
+.feed_name {
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 3px 3px 0 0;
+}
+.feed_img {
+  width: 600px;
+  height: 600px;
+  background-color: #c4c4c4;
+}
+.feed_text {
+  width: 600px;
+  height: 249px;
+  background-color: #ffffff;
+  border-radius: 3px 3px 0 0;
 }
 .side {
-  margin-top: 50px;
-  margin-bottom: 5vh;
-  width: 50vw;
-  height: 50vh;
-  background-color: #efefef;
+  width: 300px;
+  height: 518px;
+  background-color: yellow;
 }
