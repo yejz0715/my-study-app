@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="static/css/signUp.css" />
     <title>sign Up</title>
-    <script type="text/javascript">  
+    <script type="text/javascript" src="static/js/signUp.js">  
     </script>
   </head>
   <body>
@@ -26,14 +26,13 @@
             src="static/img/login_solid.png"
           />
         </div>
-        <!-- <div id="solid"><hr style="width: 100%; text-align: left; margin-left: 0"/>
-                <div id="or">OR</div> </div> -->
+        
         <div id="inputText">
-          <input type="text" class="join_idPw" placeholder="Email" />
-          <input type="text" class="join_idPw" placeholder="Full name" />
-          <input type="text" class="join_idPw" placeholder="Username" />
-          <input type="password" class="join_idPw" placeholder="Password" />
-          <button>Sign Up</button>
+          <input type="text" id="email" class="join_idPw" placeholder="Email" onkeyup="validateInputLength()"/>
+          <input type="text" id="name" class="join_idPw" placeholder="Full name" onkeyup="validateInputLength()"/>
+          <input type="text" id="id" class="join_idPw" placeholder="Username" onkeyup="validateInputLength()"/>
+          <input type="password" id="pw" class="join_idPw" placeholder="Password" onkeyup="validateInputLength()"/>
+          <button id="btn" disabled="true">Sign Up</button>
         </div>
         <span class="confirm"
           >By signing up, you agree to our Terms, Data Policy and Cookies

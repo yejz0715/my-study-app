@@ -3,13 +3,16 @@ function validateInputLength() {
   let email = document.querySelector("#email");
   let pw = document.querySelector("#pw");
   let btn = document.querySelector("#btn");
+  let pw2 = document.getElementById("pw");
+  pw2.type = "text";
+  //console.log(pw2.type);
   if (email.value.length != 0 && pw.value.length >= 8) {
     btn.disabled = false;
   } else {
     btn.disabled = true;
   }
 }
-
+//
 // 이메일 검증 함수-이메일양식
 function validateEmail() {
   let email = document.querySelector("#email").value;
@@ -17,7 +20,7 @@ function validateEmail() {
   const regExp =
     /[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i;
   // 입력창에 있는 이메일이 정규식에 잘 맞는지 검증
-  return regExp.test(email);
+  return regExp.test(email); //test() : 정규식과 특정문자가 성립하는가 true/false 반환
 }
 
 //3 로그인 버튼 클릭시 동작할 함수

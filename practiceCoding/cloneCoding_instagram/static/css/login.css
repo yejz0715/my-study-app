@@ -1,4 +1,8 @@
+@import "reset.css";
 body {
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+
   background-color: #f9f9f9;
 }
 #loginPge {
@@ -66,6 +70,7 @@ body {
   color: #ffffff;
   font-size: 14px;
   text-align: center;
+  cursor: pointer;
 }
 .login_btn:disabled {
   background: rgba(0, 149, 246, 0.25);
@@ -118,6 +123,7 @@ body {
   font-weight: 550;
   color: #0095f6;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 .join_container {
   position: relative;
@@ -136,6 +142,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   margin-left: 70px;
+  cursor: default;
 }
 #sign {
   position: relative;
@@ -143,6 +150,7 @@ body {
   color: #0095f6;
   font-weight: bold;
   padding-left: 3px;
+  cursor: pointer;
 }
 #downText {
   position: relative;

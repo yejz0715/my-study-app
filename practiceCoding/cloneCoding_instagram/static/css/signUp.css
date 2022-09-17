@@ -1,3 +1,4 @@
+@import "reset.css";
 body {
   background-color: #f9f9f9;
 }
@@ -57,12 +58,16 @@ button {
   width: 268px;
   height: 30px;
   margin: 8px 0 23px 0;
-  background: rgba(0, 149, 246, 0.25);
+  background: rgba(0, 149, 246, 0.8);
   border: none;
   border-radius: 4px;
   line-height: 30px;
   color: #ffffff;
   font-size: 14px;
+  cursor: pointer;
+}
+button:disabled {
+  background: rgba(0, 149, 246, 0.25);
 }
 #google {
   position: relative;
@@ -132,6 +137,7 @@ button {
   font-size: 14px;
   font-weight: 400;
   padding-left: 74px;
+  cursor: default;
 }
 #sign {
   position: relative;
@@ -146,6 +152,7 @@ button {
   font-size: 14px;
   font-weight: 400;
   margin: 20px 0 21px 0;
+  cursor: default;
 }
 .down_button {
   display: flex;
